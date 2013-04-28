@@ -1,0 +1,11 @@
+This is my `~/.dzil/` directory, containing default profile data for CPAN
+projects.
+
+You can make use of it yourself:
+
+    * Copy directory to `$HOME/.dzil/
+    * Edit `.dzil/config.ini` appropriately
+      This is your basic configuration data, such as who you are.
+    * Edit `.dzil/profiles/default/plugins.ini`
+      This is the outline for your project's default dist.ini plugin set.
+    * Start new projects! `dzil new My-New-Project`
