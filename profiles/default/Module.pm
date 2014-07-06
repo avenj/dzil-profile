@@ -1,4 +1,5 @@
 package {{$name}};
+
 use strictures 1;
 
 
