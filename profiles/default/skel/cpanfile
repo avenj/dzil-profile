@@ -1,8 +1,11 @@
-requires "perl"       => "5.8.0";
-requires "strictures" => 1;
+requires "perl"       => "5.010";
+requires "strictures" => "2";
+
+on 'test'      => sub {
+  requires "Test::More" => "0.88";
+};
 
 on 'configure' => sub {};
 on 'build'     => sub {};
-on 'test'      => sub {};
 on 'runtime'   => sub {};
 on 'develop'   => sub {};
